@@ -6,6 +6,29 @@ package com.atguigu.scala0722.day01.loop
   */
 object WhileDemo1 {
     def main(args: Array[String]): Unit = {
-        
+        var i = 1
+        while (i <= 100){
+            println(i)
+            i += 1
+        }
     }
 }
+/*
+java:
+    while
+    
+    do...while
+    
+    
+    for
+scala:
+    while
+    
+    do ...while
+    
+   循环语句的值是 Unit
+    
+    for: 本质不是循环, 而是一种遍历
+
+
+ */

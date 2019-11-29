@@ -36,4 +36,13 @@ object IfDemo1 {
 1. if语句最后一行会自动成为整个语句的值
 2. scala中, 赋值语句的值是Unit
 
+
+
+switch分支:
+ switch(6种)
+{
+    case 常量: ...
+}
+
+模式匹配
  */
