@@ -10,6 +10,9 @@ public class A {
     public static int b = 20;
 
     public static void main(String[] args) {
+        int a, b;
+        b = a = 3;
+        System.out.println(a = 6);
 
     }
 
