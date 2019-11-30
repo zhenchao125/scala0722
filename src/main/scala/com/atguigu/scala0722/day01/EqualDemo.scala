@@ -12,8 +12,11 @@ object EqualDemo {
         
         println(1 ^ 2)  // 异或
         
+        
+        
         var a = 1
         a += 1
+        
         
         
         
