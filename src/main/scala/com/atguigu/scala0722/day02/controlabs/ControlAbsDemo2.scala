@@ -17,7 +17,6 @@ object ControlAbsDemo2 {
             println(".......xxx......")
         }
         
-        
     }
     
     // 定义一个函数, 可以在一个子线程中执行一段代码
