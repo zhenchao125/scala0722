@@ -11,8 +11,8 @@ object OperatorDemo {
        /* val ` dsfjsadfkjlkfj  dslfjldjf  lfjsdlkfj  &&&& ` = 10
         println(` dsfjsadfkjlkfj  dslfjldjf  lfjsdlkfj  &&&& `)*/
     
-        println(A.b)
-        println(A.`type`)
+//        println(A.b)
+//        println(A.`type`)
         
         
     }

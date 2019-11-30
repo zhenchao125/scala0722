@@ -6,22 +6,21 @@ package a;
  */
 public class A {
 
-    public static int type = 10;
-    public static int b = 20;
+
 
     public static void main(String ... args) {
-        int a, b;
-        b = a = 3;
-        System.out.println(a = 6);
+        int a = 10;
 
-        add(1, 2, 3);
-        add(new int[]{1, 3, 4});
-
-
-    }
-
-    public static void add(int ... nums){
+        new Runnable(){
+            @Override
+            public void run() {
+                System.out.println(a);
+            }
+        }.run();
+//        a = 20;
 
     }
+
+
 
 }

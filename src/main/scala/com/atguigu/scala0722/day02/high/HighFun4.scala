@@ -18,9 +18,7 @@ object HighFun4 {
         val res: Int = reduce(res2, _ + _)
         println(res)
         
-        
     }
-    
     
     
     //过滤
@@ -30,7 +28,7 @@ object HighFun4 {
     
     // map
     def map(arr: Array[Int], op: Int => Int) = {
-        for(ele <- arr ) yield  op(ele)
+        for (ele <- arr) yield op(ele)
     }
     
     // 聚合
