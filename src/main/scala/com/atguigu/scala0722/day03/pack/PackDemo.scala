@@ -1,8 +1,6 @@
 package com.atguigu.scala0722.day03.pack
 
 
-
-
 /**
   * Author lzc
   * Date 2019/12/2 11:16
@@ -13,6 +11,8 @@ object PackDemo {
         val map = new HashMap[Int, Int]
         
         foo()
+        
+        val a: String = ""
         
     }
 }
@@ -62,7 +62,11 @@ scala:
         package object pack{
         }
      
-     
+  
+默认导入:
+    1. import java.lang._
+    2. import scala._
+    3. 对象内的东西自动导入: Predef  (import scala.Predef._)
 
 
 */
