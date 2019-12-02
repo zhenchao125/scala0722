@@ -7,20 +7,32 @@ package a;
 public class A {
 
 
-
-    public static void main(String ... args) {
-        int a = 10;
-
-        new Runnable(){
-            @Override
-            public void run() {
-                System.out.println(a);
-            }
-        }.run();
-//        a = 20;
+    public static void main(String... args) {
+        F f = new C();
+        f.foo();
 
     }
 
 
+}
 
+
+abstract class F {
+
+    public void foo() {
+        System.out.println("f...");
+        foo1();
+    }
+
+    abstract void foo1();
+
+
+}
+
+class C extends F {
+
+
+    public void foo1() {
+        System.out.println("foo1");
+    }
 }
