@@ -6,6 +6,14 @@ package a;
  */
 public class A {
 
+    static {  //
+
+    }
+
+    { //
+
+    }
+
 
     public static void main(String... args) {
         F f = new C();

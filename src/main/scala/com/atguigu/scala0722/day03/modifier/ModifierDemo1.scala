@@ -9,12 +9,22 @@ import scala.beans.BeanProperty
 object ModifierDemo1 {
     def main(args: Array[String]): Unit = {
         val a = new A
-//        println(a.a)
+        println(a.a)
+        
     }
 }
 
 class A{
-   private val a = 10
+   private[modifier] val a = 10
+   
+}
+
+
+class B{
+    def foo() = {
+        val a = new A()
+        println(a.a)
+    }
 }
 
 /*
@@ -32,4 +42,8 @@ scala;
         protected
             只能子父类, 同包不行
         [default] 相当于java的public
+        
+    定制访问权限:
+        private[modifier]  给modifier开放访问权限
+    
  */
