@@ -12,7 +12,7 @@ object MapDemo2 {
         //        map += (("f", 1000))
         map += "f" -> 1000
         println(map)
-        //
+        
     }
 }
 
