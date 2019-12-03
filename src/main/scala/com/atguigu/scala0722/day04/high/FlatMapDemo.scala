@@ -12,9 +12,8 @@ object FlatMapDemo {
 //        println(arr1.mkString(", "))
         
         val list = List("hello", "helo", "atguigu")
-//        val chars= list.flatMap(x => x)
-        val chars= list.flatMap(_ + "")
+        val chars= list.flatMap(x => x)
+//        val chars= list.flatMap(_ + "")
         println(chars)
-        
     }
 }
