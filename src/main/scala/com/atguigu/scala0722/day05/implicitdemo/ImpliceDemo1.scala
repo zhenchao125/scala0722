@@ -22,7 +22,7 @@ object ImpliceDemo1 {
         val n2: Int = 1.1
         println(n)*/
         
-        // F
+        //
         
         
         println(new File("c:/agent.log").readContent)
@@ -41,6 +41,7 @@ class RichFile(file: File) {
 1. 隐式转换函数
     implicit def double2Int(d: Double): Int = d.toInt
 2. 隐式类
+
 3. 隐式参数和隐式值
 
  */
