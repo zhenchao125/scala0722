@@ -8,7 +8,7 @@ object ObjDemo2 {
     def main(args: Array[String]): Unit = {
         val user = new User(10, "李四")
         user match {
-            case User(age, name) => println(age,  name)
+            case User(age, name)  => println(age,  name)
         }
         
     }
