@@ -45,7 +45,7 @@ case class Book(bookName: String, price: Double) extends Product
 case class Bundle(discount: Double, product: Product*) extends Product
 
 /*
-去商店买书, 多本树可以打折, 捆绑销售
+去商店买书, 多本shu可以打折, 捆绑销售
 1. ....
 2. 如果买两本以上, -50
 
